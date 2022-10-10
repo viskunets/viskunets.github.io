@@ -28,7 +28,7 @@ span {
   font-family: 'Orbitron', sans-serif;
 }
 
-button {
+.myButton {
   border: none;
   background-color: transparent;
   padding: auto;
@@ -46,7 +46,7 @@ button {
   transition: all 1s ease;
 }
 
-button:hover {
+.myButton:hover {
   background: #110000;
   -webkit-box-shadow: inset 0 0 0 100px #000000;
           box-shadow: inset 0 0 0 100px #000000;
@@ -298,17 +298,11 @@ img:hover {
   position: relative;
   text-align: center;
   margin-top: 50px;
-  height: 100px;
+  height: 120px;
 }
 
 .footer h5 {
   font-size: 22px;
-}
-
-@media (max-width: 992px) {
-  .footer img {
-    width: 100%;
-  }
 }
 
 @media (max-width: 1200px) {
@@ -367,6 +361,7 @@ img:hover {
   * .navbar button {
     font-size: 0;
     margin-left: 7px;
+    color: #000000;
   }
   * .portfolio .img_portfolio {
     padding-left: 36px;
